@@ -1,0 +1,141 @@
+questions = [
+    ("YOUR IN A LAB WITH ZOMBIES WHAT DO U DO A. kill em all or B. run?", "B"),
+    ("now what... A. GET IN CAR. B. sacrifice friend. C. kill em all?", "A")
+]
+
+score = 0
+for q, a in questions:
+    user_answer = input(f"{q} ")
+    if user_answer.lower() == a.lower():
+        print("U SURVIVED!")
+        score += 1
+    else:
+        print(f"YOU GET EATEN {a}.")
+
+print(f"Your score: {score}/{len(questions)}")
+
+
+Mquestions = [
+    ("THE ZOMBIES ARE CLONING what now... A. CLONE UR SELF. B. sacrifice  friend. C.enable cheats", "A")
+]
+
+
+score = 0
+for q, a in Mquestions:
+    user_answer = input(f"{q} ")
+    if user_answer.lower() == a.lower():
+        print("yOUR fiGHTInG fOR UR LiFe...!")
+        score += 1
+    else:
+        print(f"YOU DIED DIEDI EDIED {a}.")
+
+print(f"Your score: {score}/{len(Mquestions)}")
+
+
+
+Wquestions = [
+    (" A. U live but u get bit. B. Run but u  break ur legs", "a")
+]
+
+
+score = 0
+for q, a in Wquestions:
+    user_answer = input(f"{q} ")
+    if user_answer.lower() == a.lower():
+        print("U SURVIVED!")
+        score += 1
+    else:
+        print(f"YOU DIED DIEDI EDIED {a}.")
+
+print(f"Your score: {score}/{len(Wquestions)}")
+
+
+
+Pquestions = [
+    ("UR CRYING BECAUSE U GOT BIT WHAT U DO NOW. A. have peace with the zombies B. go in treeee house.", "B")
+]
+
+
+score = 0
+for q, a in Pquestions:
+    user_answer = input(f"{q} ")
+    if user_answer.lower() == a.lower():
+        print("U SURVIVED!")
+        score += 1
+    else:
+        print(f"YOU DIED DIEDI EDIED {a}.")
+
+print(f"Your score: {score}/{len(Pquestions)}")
+
+
+
+
+
+Rquestions = [
+    ("UR IN THE TREE HOUSE EATING     FOOD, bUt ZOMBIES ARE COMING IN EVERY CORNER. A. GO SUPER SAIYEN. B. EAT  ALL THE FOOD AND FOOD AND FOOD ", "A")
+]
+
+
+score = 0
+for q, a in Rquestions:
+    user_answer = input(f"{q} ")
+    if user_answer.lower() == a.lower():
+        print("U SURVIVED!")
+        score += 1
+    else:
+        print(f"YOU DIED DIEDI EDIED {a}.")
+
+print(f"Your score: {score}/{len(Rquestions)}")
+
+
+
+Lquestions = [
+    ("UR GOING iNSaNE. A. Go to airport. B. fight the zombies C. FLY INTO THE zOMbIes ", "A")
+]
+
+
+score = 0
+for q, a in Lquestions:
+    user_answer = input(f"{q} ")
+    if user_answer.lower() == a.lower():
+        print("U SURVIVED!")
+        score += 1
+    else:
+        print(f"YOU DIED DIEDI EDIED {a}.")
+
+print(f"Your score: {score}/{len(Lquestions)}")
+
+
+
+Cquestions = [
+    (" THERE IS A BIG ZOMBIE WHAT U DO NOW DUN DUN DUNNNN. A. FIGHTR IT. B. give him a bite of burger. ", "A")
+]
+
+
+score = 0
+for q, a in Cquestions:
+    user_answer = input(f"{q} ")
+    if user_answer.lower() == a.lower():
+        print("U SURVIVED!")
+        score += 1
+    else:
+        print(f"YOU DIED DIEDI EDIED {a}.")
+
+print(f"Your score: {score}/{len(Cquestions)}")
+
+
+Oquestions = [
+    ("U FIGHT IT NOW...   A. USE RIGHT HOOK FOLLOWING LEFT HOOK WITH A kick. B. BlAcK fLaSh ", "b")
+]
+
+
+score = 0
+for q, a in Oquestions:
+    user_answer = input(f"{q} ")
+    if user_answer.lower() == a.lower():
+        print("U WON but at what cost, ENDING the only victory")
+        score += 1
+    else:
+        print(f"YOU DIED DIEDI EDIED {a}.")
+
+print(f"Your score: {score}/{len(Oquestions)}")
